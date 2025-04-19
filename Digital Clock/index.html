@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="program.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="abovetext">
+            <h1>Space Clock</h1>
+        </div>
+        <div id="time">
+            <div class="circle" style="--color: #FFFFCC">
+                <div class="dots h_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+                <div id="hours">00</div>
+            </div>
+            <h1>:</h1>
+            <div class="circle" style="--color: #CCFFFF">
+                <div class="dots m_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minutes">00</div>
+            </div>
+            <h1>:</h1>
+            <div class="circle" style="--color: #66FFFF">
+                <div class="dots s_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="seconds">00</div>
+            </div>
+            <div class="ap">
+                <div id="ampm">AM</div>
+            </div>
+        </div>
+        <div class="belowtext">
+            <p>Hours</p><br>
+            <p>Minutes</p><br>
+            <p>Seconds</p>
+        </div>
+    </div>
+</body>
+
+</html>
